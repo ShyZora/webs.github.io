@@ -582,7 +582,7 @@ img[lazyload] {
 }
 :root {
   --color-mode: 'light';
-  --body-bg-color: #eee;
+  --body-bg-color: rgb(19,25,54);
   --board-bg-color: #fff;
   --text-color: #3c4858;
   --sec-text-color: #718096;
@@ -607,7 +607,7 @@ img[lazyload] {
     --color-mode: 'dark';
   }
   :root:not([data-user-color-scheme]) {
-    --body-bg-color: #181c27;
+    --body-bg-color: rgb(19,25,54);
     --board-bg-color: #252d38;
     --text-color: #c4c6c9;
     --sec-text-color: #a7a9ad;
@@ -642,7 +642,7 @@ img[lazyload] {
   }
 }
 [data-user-color-scheme='dark'] {
-  --body-bg-color: #181c27;
+  --body-bg-color: rgb(19,25,54);
   --board-bg-color: #252d38;
   --text-color: #c4c6c9;
   --sec-text-color: #a7a9ad;
